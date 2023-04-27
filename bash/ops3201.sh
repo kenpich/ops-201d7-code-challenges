@@ -1,4 +1,4 @@
-!/bin/bash
+#!/bin/bash
 
 # Script Name:                          ops3201
 #Author:                                Kenneth Pichon
@@ -13,7 +13,7 @@
 
 #Main
 function history() {
-    last > history.txt
+    last 
 }
 history
 echo "This is the login history"

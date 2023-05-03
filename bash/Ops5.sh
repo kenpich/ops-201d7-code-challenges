@@ -1,15 +1,9 @@
 #!/bin/bash
 
-# Script Name:                          Script Name
-#Author:                                Your Name
-#Date of lastest revision:              00/00/0000
-#Purpose:                               Purpose
-
-# Declaration of variables
-
-
-# Declaration of functions
-
+# Script Name:                          PID Loop
+#Author:                                Kenneth Pichon
+#Date of lastest revision:              05/02/2023
+#Purpose:                               Display Running Processes
 
 #Main
 y="6374"

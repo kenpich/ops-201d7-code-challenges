@@ -10,11 +10,12 @@
 directories=("dir1" "dir2" "dir3")
 
 for directory in "${directories[@]}"; do
-
-if [ ! -d "$directories" ]; then 
-mkdir "$directory"
-
-else
-echo "directory exists"
-fi
+  
+  if [ ! -d "$directory" ]; then
+   
+    mkdir "$directory"
+     
+  else
+    echo "directory already exists"
+  fi
 done

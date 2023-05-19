@@ -1,4 +1,7 @@
 #!/bin/bash
+#Domain Info
+#Kenneth Pichon
+#5/17/2023
 
 DOMAIN_LIST= read -p "Enter website:  " $website
 

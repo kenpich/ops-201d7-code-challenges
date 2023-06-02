@@ -1,4 +1,8 @@
 #!/bin/bash
+#Copies log file and inserts time stamp
+#Kenneth Pichon 
+#06/01/2023
+
 
 now=$(date "+%m-%d-%Y-%-H.%M.%S")
 file=log.txt

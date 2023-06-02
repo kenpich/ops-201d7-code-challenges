@@ -5,7 +5,7 @@
 
 
 now=$(date "+%m-%d-%Y-%-H.%M.%S")
-file=log.txt
+file=log.txt_$now 
 
 cp /var/log/syslog $file
 
@@ -19,11 +19,11 @@ echo $now "Syslog copied"
 
 sleep 1
 
-echo $now "Inserting Time Stamp into $file"
+echo $now "Creating: $file"
 
 sleep 1
 
-echo $now "Syslog moved to current directory"
+echo $now "$file moved to current directory"
 
 sleep 1
 

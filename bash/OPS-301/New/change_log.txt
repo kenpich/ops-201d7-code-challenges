@@ -1,0 +1,4 @@
+Created directory: New
+Set chmod permissions of files in New to: 777
+Changed directory to: New
+Created: change_log.txt

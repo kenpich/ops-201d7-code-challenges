@@ -8,7 +8,7 @@ def guess_number():
     secret_number = random.randint(1, 20)  # Generate a random number between 1 and 20
     attempts = 0
 
-    print("Welcome to Bob's Number Guessing Game!")
+    print("Welcome to My Super Awesome Number Guessing Game!")
     print("I'm thinking of a number between 1 and 20.")
 
     while attempts < 3:

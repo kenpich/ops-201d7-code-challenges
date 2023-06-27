@@ -15,4 +15,4 @@ print(elements[5] + ", " + elements[6] + ", " + elements[7] + ", " + elements[8]
 elements[6] = "onion"
 
 #Using print to show the 7th element has changed to "onion"
-print(elements)
+print(elements[0] + ", " + elements[1] + ", " + elements[2] + ", " + elements[3] + ", " + elements[4] + ", " + elements[5] + ", " + elements[6] + ", " + elements[7] + ", " + elements[8] + ", " + elements[9])
